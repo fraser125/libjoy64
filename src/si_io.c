@@ -1,9 +1,8 @@
 //
-// libn64/include/rcp/vi.h: VI helper functions.
+// libjoy64/src/si_io.c
 //
-// n64chain: A (free) open-source N64 development toolchain.
-// Copyright 2014-16 Tyler J. Stachecki <stachecki.tyler@gmail.com>
-//
+// Copyright 2017 Fraser
+//			https://sites.google.com/site/consoleprotocols/
 // This file is subject to the terms and conditions defined in
 // 'LICENSE', which is part of this source code package.
 //
@@ -11,7 +10,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <syscall.h>
-#include <rcp/si.h>
+#include "si.h"
 
 // Support Serial Accessories that transfer data on an as needed basis instead of every frame.
 // ex. Controller Pak (Game Saves), Transfer Pak (GB/GBC), EEPROM, Pulse, Rumble, GBA?, Animal Forest RTC

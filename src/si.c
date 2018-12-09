@@ -1,7 +1,6 @@
 //
-// libn64/include/os/si.h: SI helper functions.
+// libjoy64/include/os/si.h: SI helper functions.
 //
-// n64chain: A (free) open-source N64 development toolchain.
 // Copyright 2017 Fraser
 //			https://sites.google.com/site/consoleprotocols/
 // This file is subject to the terms and conditions defined in
